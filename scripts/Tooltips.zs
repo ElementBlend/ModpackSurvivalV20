@@ -9,12 +9,11 @@ import mods.jei.JEI.addDescription as ad;
 	var atomicReconstructor = format.red("(Only obtainable through the Atomic Reconstructor)");
 
 ad(<thermalexpansion:cache>, "Shift right click with a Crescent Hammer to pick up.", "The Cache retains it's upgrades and inventory.", "Do not break with Pickaxe!");
-
 ad(<environmentaltech:void_ore_miner_cont_6>, "Void Ore Miner Tier 6 specializes in generating rare ores from the void", "It does not generate common ores.");
 
 # Liquid Nitrogen
 	ad(<liquid:nitrogen>, "Obtainable with Nitrogen Collectors.");
-	
+
 # Backpacks
 ad(<backpack:backpack:*>, 
 "Backpacks from the Backpack mod can be equipped in the backpack slot.", 
@@ -29,16 +28,16 @@ ad(<backpack:backpack:*>,
 	<animania:goat_cheese_wheel>,
 	<animania:sheep_cheese_wheel>
 	];
-	
+
 # Animania Cheese
 	var cheeseMold = "Made by right clicking Animania Milk into a placed Cheese Mold.";
 	for cheese in cheeses {
 		ad(cheese, cheeseMold);
 	}
-	
+
 # Bag of Holding
 	ad(<extrautils2:bagofholding>, "Removed due to instability.");
-	
+
 # Blood Magic Guide
 	ad(<guideapi:bloodmagic-guide>, "Sneak-Right-Click on a Blood Altar with this book, and it will show you where to place the appropriate blocks for the different Blood Altar tiers. Right-click to change tier.");
 
@@ -60,11 +59,11 @@ ad(<backpack:backpack:*>,
 
 # Bibliocraft Clipboard
 	<bibliocraft:biblioclipboard>.addTooltip(format.red("(Removed due to instability issues)"));
-	
 	<libvulpes:productingot:7>.addTooltip(format.red("(Craftable)"));
-
 	<natura:redwood_sapling>.addTooltip("Caution: This tree is insanely big!");
-
 	<harvestcraft:market>.addTooltip(format.red("Disabled. Use the Market from Farming For Blockheads."));
-		
-	
+
+# Marble can be chiseled into..
+	<astralsorcery:blockmarble>.addTooltip(format.aqua("Chisel Variations: Astral Sorcery & Unlimited Chisel Works"));
+	<chisel:marble2:7>.addTooltip(format.aqua("Chisel Variations: Chisel & Quark"));
+	<quark:marble>.addTooltip(format.aqua("Chisel Variations: Chisel & Quark"));

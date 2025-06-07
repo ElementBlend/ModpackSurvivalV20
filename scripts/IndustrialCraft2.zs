@@ -4,16 +4,28 @@
 	[[<ic2:dust:23>, <ic2:dust:23>, <ic2:dust:23>],
 	[<ic2:dust:23>, <ic2:dust:23>, <ic2:dust:23>], 
 	[<ic2:dust:23>, <ic2:dust:23>, <ic2:dust:23>]]);
-	
+
 	recipes.addShaped("LapisDustFromTiny", 
 	<ic2:dust:9>, 
 	[[<ic2:dust:22>, <ic2:dust:22>, <ic2:dust:22>],
 	[<ic2:dust:22>, <ic2:dust:22>, <ic2:dust:22>], 
 	[<ic2:dust:22>, <ic2:dust:22>, <ic2:dust:22>]]);
 
+# Batch Crafter
+	recipes.remove(<ic2:te:89>);
+	recipes.addShaped("Batch Crafter", <ic2:te:89>, 
+	[[null, <ic2:te:88>, null],
+	[<ore:circuitAdvanced>, <ic2:resource:13>, <ore:circuitAdvanced>], 
+	[<ore:craftingToolForgeHammer>, <thermalfoundation:wrench>.anyDamage(), <ore:craftingToolForgeHammer>]]);
+
+# Reinforced Stone
+	recipes.addShapedMirrored("Reinforced Stone", 
+	<ic2:resource:11> * 16, 
+	[[<minecraft:stone:*>, <tconstruct:soil>, <minecraft:stone:*>],
+	[<tconstruct:soil>, <ore:dustClay>, <tconstruct:soil>], 
+	[<minecraft:stone:*>, <tconstruct:soil>, <minecraft:stone:*>]]);
 
 /*
-
 Hopefully IC2 will get craft/modtweaker support eventually.
 
 import mods.ic2.Canner;
@@ -25,8 +37,9 @@ import mods.ic2.OreWasher;
 import mods.ic2.ThermalCentrifuge;
 
 # Custom recipes made by NillerMedDild
+
 	print("--- loading ImmersiveEngineering.zs ---");
-	
+
 # *======= Canner =======*
 
 	#Canner.addBottleRecipe(output, container, fillIngredient);
@@ -37,7 +50,6 @@ import mods.ic2.ThermalCentrifuge;
 # *======= Compressor =======*
 
 	#Compressor.addRecipe(<minecraft:planks>, <minecraft:stick>);
-
 
 # *======= Extractor =======*
 

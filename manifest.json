@@ -3,16 +3,16 @@
     "version": "1.12.2",
     "modLoaders": [
       {
-        "id": "forge-14.23.5.2854",
+        "id": "forge-14.23.5.2860",
         "primary": true
       }
     ]
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Enigmatica 2",
-  "version": "1.79",
-  "author": "NillerMedDild",
+  "name": "Enigmatica 2 (MMS V20)",
+  "version": "1.20.0",
+  "author": "SamLam140330",
   "files": [
     {
       "projectID": 224472,
