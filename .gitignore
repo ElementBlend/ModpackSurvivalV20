@@ -78,11 +78,7 @@ mobs_0.png
 mtservers.dat
 observable_announce
 o_prof
-OpenComputersMod-1.7.5.192-lua52-native.64.dll
-OpenComputersMod-1.7.5.192-lua53-native.64.dll
-OpenComputersMod-1.8.3-52-libjnlua52-windows-x86_64.dll
-OpenComputersMod-1.8.3-53-libjnlua53-windows-x86_64.dll
-OpenComputersMod-1.8.3-54-libjnlua54-windows-x86_64.dll
+*.dll
 options.txt
 optionsof.txt
 optionsshaders.txt
