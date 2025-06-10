@@ -3,7 +3,7 @@
 ## 20.0
 
 Fabric Version: 1.12.2-14.23.5.2860  
-Total Mods: TODO
+Total Mods: 279
 
 **Changes**
 

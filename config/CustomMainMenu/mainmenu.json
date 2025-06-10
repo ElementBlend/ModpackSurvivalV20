@@ -19,18 +19,16 @@
             "height" : 50,
             "alignment" : "top_center"
         },
-		
 		"transparentBox":
         {
             "image" : "modpack:textures/gui/image1.png",
             "posX" : 25,
-            "posY" : -140,
+            "posY" : -146,
             "width" : 140,
             "height" : 280,
             "alignment" : "left_center"
         }
     },
-    
     "buttons":
     {
 		"singleplayer": {
@@ -109,7 +107,6 @@
                 "gui": "options"
             }
         },
-        
         "languages": {
             "text": "Languages",
             "posX": 44,
@@ -171,23 +168,35 @@
             }
         }		
 	},
-    
     "labels":
     {
+        "fml":
+        {
+            "text" : "",
+            "posX" : 6,
+            "posY" : -45,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "posX" : 8,
-            "posY" : -15,
+            "posX" : -200,
+            "posY" : -10,
             "color" : -1,
-            "alignment" : "bottom_left"
+            "alignment" : "bottom_right"
+        },
+        "mms_ver":
+        {
+            "text" : "MMS V20.0",
+            "posX" : -50,
+            "posY" : -18,
+            "color" : -1,
+            "alignment" : "bottom_right"
         }
 	},
-    
     "other":
     {
-        
-        
         "panorama":
         {
             "images" : "modpack:textures/panoramas/crag/panorama_%c.png",
